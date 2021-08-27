@@ -1,0 +1,8 @@
+apache-airflow-providers-postgres[amazon]
+apache-airflow-providers-cncf-kubernetes
+psycopg2
+fsspec
+s3fs
+pandas
+sagemaker==v1.72
+dag-factory==0.7.2
