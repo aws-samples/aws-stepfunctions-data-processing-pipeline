@@ -15,7 +15,7 @@ and preliminarily discusses the methodology and significance of cloud-native ser
 
 ## AWS Blog
 An article is published in AWS Blog China to introduce the solution in detail.
-- https://aws.amazon.com/cn/blogs/china/preliminarily-discussion-on-cloud-native-data-analysis-pipeline-orchestration/
+- https://aws.amazon.com/cn/blogs/china/preliminary-study-on-cloud-native-data-analysis-pipeline-orchestration
 
 ## Deployment
 AWS CDK 1.0 is used as the infrastructure as code solution.
@@ -25,12 +25,12 @@ export AWS_ACCOUNT=
 export AWS_DEFAULT_REGION=cn-north-1
 export AWS_PROFILE=
 
-cdk deploy NF1-LandingZone --require-approval never
-cdk deploy NF1-Redshift --require-approval never
-cdk deploy NF1-DataZone --require-approval never
-cdk deploy NF1-Airflow-Lab --require-approval never
-cdk deploy NF1-Glue-Lab --require-approval never
-cdk deploy NF1-StepFunctions-Lab --require-approval never
+cdk deploy NF1-LandingZone        --require-approval never
+cdk deploy NF1-Redshift           --require-approval never
+cdk deploy NF1-DataZone           --require-approval never
+cdk deploy NF1-Airflow-Lab        --require-approval never
+cdk deploy NF1-Glue-Lab           --require-approval never
+cdk deploy NF1-StepFunctions-Lab  --require-approval never
 ```
 
 ## Security
